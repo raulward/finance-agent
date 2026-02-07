@@ -13,4 +13,4 @@ class AnalyzedResponse(BaseModel):
     action: Literal["BUY", "HOLD", "SELL"]
     confidence: float
     risks: List[str]
-    opportunitties: List[str]
+    opportunities: List[str]

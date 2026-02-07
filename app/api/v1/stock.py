@@ -20,5 +20,5 @@ def stock_analyze(stock: Stock):
         "action": response.action,
         "confidence": response.confidence,
         "risks": response.risks,
-        "opportunitties": response.opportunities
+        "opportunities": response.opportunities
     }
